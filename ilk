@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>SÖZLÜ</h1>
+    <h4>site haritası</h4>
+    <ul>
+        <li>Biçimlendirme Komutları</li>
+        <li>Resim İşlemleri</li>
+        <ol>
+            <li>figure</li>
+            <li>map</li>
+            <li>picture</li>
+        </ol>
+        <li>Ses İşlemleri</li>
+        <li>Video İşlemleri</li>
+        <ol>
+            <li>Video Göster</li>
+            <li>Youtube'den aç</li>
+        </ol>
+        <li>Tablo İşlemleri</li>
+        <li>Liste İşlemleri</li>
+        <li>Form İşlemleri</li>
+        <li>Iframe</li>
+    </ul>
+    <h2 align="center">Biçimlendirme Komutları</h2>
+    <p>Bir yapboz oluşturmak için parçaların birbirine bağlanmasına gereksinim duyulması gibi bir metin oluşturmak için
+        de paragrafların birbirine bağlanması gerekir.
+        Bir görüşün, bir duygunun işlendiği metinlerde de işlenen görüş ve duyguların birbirini destekleyecek
+        paragraflar şeklinde, mantıksal bir sıra ile ele alınması gerekir.
+        Örnek olarak olayın işlendiği metinlerde paragrafların zaman, kişi, çevre gibi öğelerin sırasına dikkat edilmesi
+        gerekir.
+        Buna dikkat edilmezse paragraflar arasında zaman, kişi, mekân vb. yönlerden karışıklıklar ortaya çıkar, metnin
+        anlaşılması güçleşir.</p>
+    <blockquote>Bir metnin anlatım biçimi ve dil özelliklerinin temelinde metnin türü, içeriği, anlatımın amacı, okur
+        kitlesinin düzeyi, özellikleri bulunur.
+        Yazar, iletisini tam olarak verebilmek için metin yazarken bütün bunlara dikkat etmelidir.
+        Bu amaca ulaşmak isteyen yazar, bir düşüncesini aktarırken ya da bir olayı okurun gözü önünde canlanacak şekilde
+        anlatırken metne uygun olan anlatım tekniklerinden yararlanmalıdır.
+        Örneğin hikâye ve roman yazarken olay (öyküleme), betimleme paragraflarından; düşünce y
+        
+        azılarında örneklendirme,
+        tanık gösterme, tanımlama, karşılaştırma gibi anlatım yöntemlerinden yararlanmalıdır.</blockquote>
+    <p>Ağaç kelimesi eski çağlardan beri dilimizde yaşamaktadır.
+        Orhun Yazıtları’nda bile ağaçla karşılaşırız.
+        Türk şiirinde ağaca karşı derin bir ilgi görülür.
+        Memleketimizde birçok yerin adı ağaçtan alınmıştır: Çamlıbel, Kirazlıyayla, Kırkağaç… Bunlar halkın ağaca
+        verdiği önemi gösterir.
+        Bazı ağaçlarla ilgili yerlerin ayrıca bir tarihi de vardır: Göynük teki “Beykavağı” adlı yere ad verilmesinde
+        Yıldırım ın oğlu Süleyman’ın rolü olduğunu Âşıkpaşazade Tarihi yazar.
+        Eskiden beri birçok Türk boyuna, birçok kişiye ağaç adı verilmiştir. Yeni soyadı kanununa göre pek çoğumuz,
+        soyadımızı ağaca bağlamış bulunuyoruz.
+        Bu da gösteriyor ki halkımız, ağaca karşı beslediği sevgiyi hâlâ yüreğinde yaşatmaktadır.</p>
+
+
+    <h3>RESİM İŞLEMLERİ</h3>
+    <figure>
+        <figcaption>KEDİ KÖPEK</figcaption><img src="img/kpppp.jpg" width="300" height="350">
+    </figure>
+    <img src="img/fil.jpeg" usemap="#haritaresim">
+    <map name="haritaresim"> <area shape="circle" coords="300,400,100" href="https://youtube.com" alt=""></map>
+    <br><br>
+    <picture>
+        <source media="(min-width:1000px)" srcset="kpppp.jpg">
+        <source media="(min-width: 700px)" srcset="goril.jpeg">
+        <img src="img/fil.jpeg">
+    </picture>
+
+    <h2>MÜZİK</h2>
+    <audio controls><source src="videoplayback.mp3" type="audio/mp3"></audio>
+    <h2>VİDEO</h2>
+    <table border="1">
+        <tr>
+            <td><video width="300" height="200" controls><source src="vidyo.mp4" type="video/mp4"></video></td>
+            <td><iframe width="300" height="200" src="https://www.youtube.com/embed/CQlH10Gr_n4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+        </tr>
+    </table>
+    <hr><br>
+    <table border="1">
+        <a name="tablo">
+        <tr>
+        <td colspan="4" style="text-align:center;"><b>TABLO</b></td>
+    </tr>
+        
+        <tr>
+        <td rowspan="4">ÖDEMELER</td>
+        <td>Mart</td>
+        <td>Nisan</td>
+    </tr>
+        <tr>
+            <td style="text-align: center;">1</td>
+            <td style="text-align: center;">2</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">3</td>
+            <td style="text-align: center;">4</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">5</td>
+            <td style="text-align: center;">6</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align: center;">Asiye Oba</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td>Liste Özellikleri </td>
+        </tr>
+        <tr>
+            <td>Sırasız Liste 
+                <ul>
+                    <li>A</li>
+                    <li>S</li>
+                    <li>İ</li>
+                    <li>Y</li>
+                    <li>E</li>
+                </ul>
+            </td>
+            <td>Sıralı Liste 
+                <ol>
+                    <li>O</li>
+                    <li>B</li>
+                    <li>A</li>
+                </ol>
+            </td>
+            <td>iç İçe Liste
+                <ul>
+                    <li>Asiye</li>
+                    <ul>
+                        <li>APO</li>
+                        <ul>
+                            <li>yigido</li>
+
+                        </ul>
+                    </ul>       
+                </ul>
+            </td>
+
+        </tr>
+    </table>
+<fieldset></fieldset>
+
+
+</body>
+
+</html>
